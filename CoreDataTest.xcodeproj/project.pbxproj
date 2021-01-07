@@ -18,6 +18,7 @@
 		2EF4374B25A6B61E00E1CD0E /* TestModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2EF4374925A6B61E00E1CD0E /* TestModel.xcdatamodeld */; };
 		2EF4375125A6B65C00E1CD0E /* UserAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF4374F25A6B65C00E1CD0E /* UserAccount.swift */; };
 		2EF4375225A6B65C00E1CD0E /* UserAccount+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF4375025A6B65C00E1CD0E /* UserAccount+CoreDataProperties.swift */; };
+		2EF4377225A70AA600E1CD0E /* CoreDataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF4377125A70AA600E1CD0E /* CoreDataTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		2EF4374A25A6B61E00E1CD0E /* TestModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestModel.xcdatamodel; sourceTree = "<group>"; };
 		2EF4374F25A6B65C00E1CD0E /* UserAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccount.swift; sourceTree = "<group>"; };
 		2EF4375025A6B65C00E1CD0E /* UserAccount+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserAccount+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2EF4377125A70AA600E1CD0E /* CoreDataTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				2EF4371325A6B5FA00E1CD0E /* AppDelegate.swift */,
 				2EF4371525A6B5FA00E1CD0E /* SceneDelegate.swift */,
 				2EF4371725A6B5FA00E1CD0E /* ViewController.swift */,
+				2EF4377125A70AA600E1CD0E /* CoreDataTableViewController.swift */,
 				2EF4371925A6B5FA00E1CD0E /* Main.storyboard */,
 				2EF4371F25A6B5FA00E1CD0E /* Assets.xcassets */,
 				2EF4372125A6B5FA00E1CD0E /* LaunchScreen.storyboard */,
@@ -267,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EF4377225A70AA600E1CD0E /* CoreDataTableViewController.swift in Sources */,
 				2EF4375225A6B65C00E1CD0E /* UserAccount+CoreDataProperties.swift in Sources */,
 				2EF4374B25A6B61E00E1CD0E /* TestModel.xcdatamodeld in Sources */,
 				2EF4375125A6B65C00E1CD0E /* UserAccount.swift in Sources */,
